@@ -13,7 +13,7 @@ sql_templates = {
     'how many times is the model ge40lfr?': 'SELECT COUNT Manufacturer FROM table WHERE Model = GE40LFR',
     'how many times is the fleet series (quantity) is 468-473 (6)?': 'SELECT COUNT Order Year FROM table WHERE Fleet Series (Quantity) = 468-473 (6)',
     'what is the powertrain (engine/transmission) when the order year is 2000?': 'SELECT Powertrain (Engine/Transmission) FROM table WHERE Order Year = 2000',
-    '
+    
 }
 
 # Streamlit app
